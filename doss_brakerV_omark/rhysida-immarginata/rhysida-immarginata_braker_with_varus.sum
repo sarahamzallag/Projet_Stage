@@ -1,0 +1,15 @@
+#The selected clade was Mandibulata
+#Number of conserved HOGs is: 4014
+#Results on conserved HOGs is:
+#S:Single:S, D:Duplicated[U:Unexpected,E:Expected],M:Missing
+S:1647,D:41[U:40,E:1],M:2326
+S:41.03%,D:1.02%[U:1.00%,E:0.02%],M:57.95%
+#On the whole proteome, there are 3976 proteins
+#Of which:
+#A:Consistent (taxonomically)[P:Partial hits,F:Fragmented], I: Inconsistent (taxonomically)[P:Partial hits,F:Fragmented], C: Likely Contamination[P:Partial hits,F:Fragmented], U: Unknown 
+A:3018[P:716,F:279],I:382[P:224,F:34],C:0[P:0,F:0],U:576
+A:75.91%[P:18.01%,F:7.02%],I:9.61%[P:5.63%,F:0.86%],C:0.00%[P:0.00%,F:0.00%],U:14.49%
+#From HOG placement, the detected species are:
+#Clade	NCBI taxid	Number of associated proteins	Percentage of proteome's total
+Panarthropoda	88770	3400	85.51%
+

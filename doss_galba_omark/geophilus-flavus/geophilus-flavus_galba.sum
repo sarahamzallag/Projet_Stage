@@ -1,0 +1,15 @@
+#The selected clade was Mandibulata
+#Number of conserved HOGs is: 4014
+#Results on conserved HOGs is:
+#S:Single:S, D:Duplicated[U:Unexpected,E:Expected],M:Missing
+S:2367,D:1058[U:1029,E:29],M:589
+S:58.97%,D:26.36%[U:25.64%,E:0.72%],M:14.67%
+#On the whole proteome, there are 23873 proteins
+#Of which:
+#A:Consistent (taxonomically)[P:Partial hits,F:Fragmented], I: Inconsistent (taxonomically)[P:Partial hits,F:Fragmented], C: Likely Contamination[P:Partial hits,F:Fragmented], U: Unknown 
+A:16235[P:4319,F:5610],I:2029[P:1222,F:355],C:0[P:0,F:0],U:5609
+A:68.01%[P:18.09%,F:23.50%],I:8.50%[P:5.12%,F:1.49%],C:0.00%[P:0.00%,F:0.00%],U:23.50%
+#From HOG placement, the detected species are:
+#Clade	NCBI taxid	Number of associated proteins	Percentage of proteome's total
+Strigamia maritima	126957	18264	76.50%
+
