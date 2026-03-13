@@ -1,0 +1,64 @@
+{
+    "parameters": {
+        "out_path": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/e3/6a18db53c3d33a17ae9184c490d9e8",
+        "cpu": "10",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/e3/6a18db53c3d33a17ae9184c490d9e8/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "plot_percentages": "False",
+        "in": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/e3/6a18db53c3d33a17ae9184c490d9e8/agaricogonopus-acrotrifoliolatus_braker_with_star_proteins.fasta",
+        "out": "busco_agaricogonopus-acrotrifoliolatus_braker_with_star",
+        "mode": "proteins",
+        "lineage_dataset": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/e3/6a18db53c3d33a17ae9184c490d9e8/busco_downloads/lineages/arthropoda_odb10",
+        "main_out": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/e3/6a18db53c3d33a17ae9184c490d9e8/busco_agaricogonopus-acrotrifoliolatus_braker_with_star",
+        "lineage_results_dir": "run_arthropoda_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "arthropoda_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "1013",
+        "number_of_species": "90"
+    },
+    "versions": {
+        "python": [
+            3,
+            12,
+            11,
+            "final",
+            0
+        ],
+        "busco": "6.0.0",
+        "hmmsearch": 3.4
+    },
+    "results": {
+        "one_line_summary": "C:96.2%[S:95.4%,D:0.8%],F:0.9%,M:3.0%,n:1013",
+        "Complete percentage": 96.2,
+        "Complete BUSCOs": 974,
+        "Single copy percentage": 95.4,
+        "Single copy BUSCOs": 966,
+        "Multi copy percentage": 0.8,
+        "Multi copy BUSCOs": 8,
+        "Fragmented percentage": 0.9,
+        "Fragmented BUSCOs": 9,
+        "Missing percentage": 3.0,
+        "Missing BUSCOs": 30,
+        "n_markers": 1013,
+        "domain": "eukaryota"
+    }
+}

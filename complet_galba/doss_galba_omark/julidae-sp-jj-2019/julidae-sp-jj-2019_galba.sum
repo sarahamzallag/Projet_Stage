@@ -1,0 +1,21 @@
+#The selected clade was Mandibulata
+#Number of conserved HOGs is: 4014
+#Results on conserved HOGs is:
+#S:Single:S, D:Duplicated[U:Unexpected,E:Expected],M:Missing
+S:2988,D:769[U:768,E:1],M:257
+S:74.44%,D:19.16%[U:19.13%,E:0.02%],M:6.40%
+#On the whole proteome, there are 39129 proteins
+#Of which:
+#A:Consistent (taxonomically)[P:Partial hits,F:Fragmented], I: Inconsistent (taxonomically)[P:Partial hits,F:Fragmented], C: Likely Contamination[P:Partial hits,F:Fragmented], U: Unknown 
+A:18797[P:5636,F:3565],I:3991[P:2111,F:571],C:11521[P:1660,F:1538],U:4820
+A:48.04%[P:14.40%,F:9.11%],I:10.20%[P:5.39%,F:1.46%],C:29.44%[P:4.24%,F:3.93%],U:12.32%
+#From HOG placement, the detected species are:
+#Clade	NCBI taxid	Number of associated proteins	Percentage of proteome's total
+Panarthropoda	88770	19640	50.19%
+#Potential contaminants:
+o__Bacteroidales	-1759564060	5862	14.98%
+g__Enterobacter	-856349689	115	0.29%
+f__Burkholderiaceae	-1117906034	111	0.28%
+Elusimicrobium minutum (strain Pei191)	-905112311	57	0.15%
+p__Verrucomicrobiota	-1383736988	37	0.09%
+Ambiguous contaminant	-1	5620	14.36%

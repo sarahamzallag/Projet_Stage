@@ -1,0 +1,64 @@
+{
+    "parameters": {
+        "out_path": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/97/3cc0ddc5c4a66124efb9d12b01faee",
+        "cpu": "10",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/97/3cc0ddc5c4a66124efb9d12b01faee/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "plot_percentages": "False",
+        "in": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/97/3cc0ddc5c4a66124efb9d12b01faee/ommatoiulus-sabulosus_galba_proteins.fasta",
+        "out": "busco_ommatoiulus-sabulosus_galba",
+        "mode": "proteins",
+        "lineage_dataset": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/97/3cc0ddc5c4a66124efb9d12b01faee/busco_downloads/lineages/arthropoda_odb10",
+        "main_out": "/shared/ifbstor1/projects/metainvert/exogaptwo/work/97/3cc0ddc5c4a66124efb9d12b01faee/busco_ommatoiulus-sabulosus_galba",
+        "lineage_results_dir": "run_arthropoda_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "arthropoda_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "1013",
+        "number_of_species": "90"
+    },
+    "versions": {
+        "python": [
+            3,
+            12,
+            11,
+            "final",
+            0
+        ],
+        "busco": "6.0.0",
+        "hmmsearch": 3.4
+    },
+    "results": {
+        "one_line_summary": "C:72.9%[S:71.8%,D:1.1%],F:11.0%,M:16.2%,n:1013",
+        "Complete percentage": 72.9,
+        "Complete BUSCOs": 738,
+        "Single copy percentage": 71.8,
+        "Single copy BUSCOs": 727,
+        "Multi copy percentage": 1.1,
+        "Multi copy BUSCOs": 11,
+        "Fragmented percentage": 11.0,
+        "Fragmented BUSCOs": 111,
+        "Missing percentage": 16.2,
+        "Missing BUSCOs": 164,
+        "n_markers": 1013,
+        "domain": "eukaryota"
+    }
+}

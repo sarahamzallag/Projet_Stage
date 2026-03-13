@@ -1,0 +1,19 @@
+#The selected clade was Mandibulata
+#Number of conserved HOGs is: 4014
+#Results on conserved HOGs is:
+#S:Single:S, D:Duplicated[U:Unexpected,E:Expected],M:Missing
+S:2337,D:121[U:121,E:0],M:1556
+S:58.22%,D:3.01%[U:3.01%,E:0.00%],M:38.76%
+#On the whole proteome, there are 57310 proteins
+#Of which:
+#A:Consistent (taxonomically)[P:Partial hits,F:Fragmented], I: Inconsistent (taxonomically)[P:Partial hits,F:Fragmented], C: Likely Contamination[P:Partial hits,F:Fragmented], U: Unknown 
+A:7496[P:1673,F:1123],I:2787[P:1295,F:293],C:29578[P:5858,F:4961],U:17449
+A:13.08%[P:2.92%,F:1.96%],I:4.86%[P:2.26%,F:0.51%],C:51.61%[P:10.22%,F:8.66%],U:30.45%
+#From HOG placement, the detected species are:
+#Clade	NCBI taxid	Number of associated proteins	Percentage of proteome's total
+Panarthropoda	88770	6396	11.16%
+#Potential contaminants:
+p__Proteobacteria	-760794537	8744	15.26%
+c__Bacteroidia	-1723127769	3707	6.47%
+Terriglobus saanensis (strain ATCC BAA-1853 / DSM 23119 / SP1PR4)	-340524592	1112	1.94%
+Ambiguous contaminant	-1	16467	28.73%

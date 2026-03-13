@@ -1,0 +1,17 @@
+#The selected clade was Mandibulata
+#Number of conserved HOGs is: 4014
+#Results on conserved HOGs is:
+#S:Single:S, D:Duplicated[U:Unexpected,E:Expected],M:Missing
+S:2980,D:776[U:774,E:2],M:258
+S:74.24%,D:19.33%[U:19.28%,E:0.05%],M:6.43%
+#On the whole proteome, there are 61191 proteins
+#Of which:
+#A:Consistent (taxonomically)[P:Partial hits,F:Fragmented], I: Inconsistent (taxonomically)[P:Partial hits,F:Fragmented], C: Likely Contamination[P:Partial hits,F:Fragmented], U: Unknown 
+A:31739[P:14763,F:5689],I:6950[P:4476,F:1022],C:3898[P:2466,F:354],U:18604
+A:51.87%[P:24.13%,F:9.30%],I:11.36%[P:7.31%,F:1.67%],C:6.37%[P:4.03%,F:0.58%],U:30.40%
+#From HOG placement, the detected species are:
+#Clade	NCBI taxid	Number of associated proteins	Percentage of proteome's total
+Harpegnathos saltator	610380	5276	8.62%
+#Potential contaminants:
+Parasteatoda tepidariorum	114398	4005	6.55%
+Strigamia maritima	126957	38	0.06%
