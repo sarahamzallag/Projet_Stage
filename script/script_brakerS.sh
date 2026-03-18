@@ -72,7 +72,7 @@ done
 
 
 
-mkdir -p complet_brakerS
+mkdir complet_brakerS
 mv doss_brakerS_fasta complet_brakerS/
 mv doss_brakerS_busco complet_brakerS/
 mv doss_brakerS_omark complet_brakerS/

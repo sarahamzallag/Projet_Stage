@@ -69,8 +69,10 @@ do
 done
 
 
-mkdir -p complet_braker2
+mkdir complet_braker2
 mv doss_braker2_fasta complet_braker2/
 mv doss_braker2_busco complet_braker2/
-mv doss_braker2_omark complet_braker2/
+mv doss_braker2_omark comscript/complet_braker2plet_braker2/
 mv braker2_tableau.tsv complet_braker2/
+
+

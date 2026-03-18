@@ -71,7 +71,7 @@ done
 
 
 
-mkdir -p complet_galba
+mkdir complet_galba
 mv doss_galba_fasta complet_galba/
 mv doss_galba_busco complet_galba/
 mv doss_galba_omark complet_galba/
