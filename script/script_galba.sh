@@ -14,16 +14,15 @@ done
 
 
 
-
 mkdir doss_galba_busco
 
-busco_source="/gstock/metainvert/results/myriapods_annotation/proteomes_analysis/second_version/busco/all_busco_results"
+busco_source="/gstock/metainvert/results/myriapods_annotation/proteomes_analysis/second_version/busco/galba"
 
-for i in $busco_source/*galba.json
+for i in $busco_source/*/
 do
-  espece=$(basename "$i" | sed 's/.*busco_//' | sed 's/_galba.*//') # Extrait le nom de l'espece (coupe avant busco_ et après _galba)
+  espece=$(basename "$i")
   mkdir "doss_galba_busco/$espece"
-  cp "$i" "doss_galba_busco/$espece/"
+  cp "$i"/*.json "doss_galba_busco/$espece/"
 done
 
 
@@ -39,8 +38,9 @@ for i in "$omark_source"/*
 do
     espece=$(basename "$i")
     mkdir "doss_galba_omark/$espece"
-    cp "$i/omark/"*.sum "doss_galba_omark/$espece/"   # copier le fichier .sum de l’espèce dans son dossier dans doss_omark
+    ln -s "$i/omark/"*.sum "doss_galba_omark/$espece/"   # copier le fichier .sum de l’espèce dans son dossier dans doss_omark
 done
+
 
 
 
@@ -68,11 +68,10 @@ do
 done
 
 
-
-
-
 mkdir complet_galba
 mv doss_galba_fasta complet_galba/
 mv doss_galba_busco complet_galba/
 mv doss_galba_omark complet_galba/
 mv galba_tableau.tsv complet_galba/
+
+
