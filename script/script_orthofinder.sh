@@ -11,7 +11,7 @@
 
 module load ortho/orthofinder/2.5.5
 cd /home/amzallag/stage
-orthofinder -f orthofinder_galba -t 40
+orthofinder -f agat/fasta_orthofinder -t 40
 
 
 # A TAPER DS TERMINAL
