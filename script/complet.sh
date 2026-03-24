@@ -1,3 +1,4 @@
+
 for nom_source in "$@"   # argument donné en ligne de commande - peu importe combien il y en a (sinon $1)
 do
 
@@ -69,3 +70,7 @@ done
 done
 
 # bash complet.sh galba braker2 braker_with_star braker_with_varus
+# pour mettre tt un seul tableau en ordre alphabetique : 2 commandes
+# awk 'FNR==1 && NR!=1 {next} {print}' /home/amzallag/stage/complet/complet_*/*_tableau.tsv > /home/amzallag/stage/complet/tableau_final.tsv
+# (head -n 1 tableau_final.tsv && tail -n +2 tableau_final.tsv | sort) > tmp && mv tmp tableau_final.tsv
+
