@@ -41,7 +41,7 @@ done < /home/amzallag/stage/fiche_espece
 
 
 # A TAPER DS TERMINAL
-#sbatch script_agat.sh
+#sbatch agat.sh
 #squeue
 #pour annuler "scancel 7886"
 #

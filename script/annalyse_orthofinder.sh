@@ -1,5 +1,5 @@
-source="/home/amzallag/stage/agat/fasta_orthofinder/OrthoFinder/Results_Mar26/Orthogroups/Orthogroups.GeneCount.tsv"  # fichier OrthoFinder complet
-chilodiplo="/home/amzallag/stage/Orthogroups.GeneCount.chilo_diplo.tsv"  # tableau contenant seulement les 14 espèces chilo + diplo
+source="/home/amzallag/stage/OrthoFinder/Results_Mar26/Orthogroups/Orthogroups.GeneCount.tsv"  # fichier OrthoFinder complet
+chilodiplo="/home/amzallag/stage/analyse/chilo_diplo.tsv"  # tableau contenant seulement les 14 espèces chilo + diplo
 analyse="/home/amzallag/stage/analyse"  # dossier de sortie des résultats
 
 mkdir -p $analyse  # crée le dossier analyse s'il n'existe pas
@@ -21,4 +21,10 @@ awk 'BEGIN{FS=OFS="\t"} NR==1{print; next} {diplo=1; for(i=8;i<=15;i++) if($i==0
 
 # sélectionne les orthogroups présents chez tous les chilopodes et absents chez tous les diplopodes
 awk 'BEGIN{FS=OFS="\t"} NR==1{print; next} {chilo=1; for(i=2;i<=7;i++) if($i==0) chilo=0; diplo_zero=1; for(i=8;i<=15;i++) if($i>0) diplo_zero=0; if(chilo && diplo_zero) print}' $chilodiplo > $analyse/specifi_chilo.tsv
+
+
+
+
+
+
 
