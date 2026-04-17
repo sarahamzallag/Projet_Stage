@@ -8,3 +8,4 @@ tail -n +2 /home/amzallag/stage/script/groupe.tsv | cut -f1 > noms_mapping.txt
 # 3. On regarde qui est dans le fichier mais PAS dans ton mapping
 echo "--- ESPÈCES PRÉSENTES DANS LE FICHIER MAIS NON RECONNUES ---"
 grep -vFf noms_mapping.txt colonnes_reelles.txt
+
