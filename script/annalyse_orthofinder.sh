@@ -23,7 +23,22 @@ awk 'BEGIN{FS=OFS="\t"} NR==1{print; next} {diplo=1; for(i=8;i<=15;i++) if($i==0
 awk 'BEGIN{FS=OFS="\t"} NR==1{print; next} {chilo=1; for(i=2;i<=7;i++) if($i==0) chilo=0; diplo_zero=1; for(i=8;i<=15;i++) if($i>0) diplo_zero=0; if(chilo && diplo_zero) print}' $chilodiplo > $analyse/specifi_chilo.tsv
 
 
+echo "Résultats de l'analyse :"
 
+echo "Orthogroups conservés chez tous les Chilopodes : \
+$(tail -n +2 $analyse/commun_chilo.tsv | wc -l)"
+
+echo "Orthogroups conservés chez tous les Diplopodes : \
+$(tail -n +2 $analyse/commun_diplo.tsv | wc -l)"
+
+echo "Orthogroups conservés chez tous les Chilopodes et Diplopodes : \
+$(tail -n +2 $analyse/core_especes.tsv | wc -l)"
+
+echo "Orthogroups spécifiques aux Chilopodes : \
+$(tail -n +2 $analyse/specifi_chilo.tsv | wc -l)"
+
+echo "Orthogroups spécifiques aux Diplopodes : \
+$(tail -n +2 $analyse/specifi_diplo.tsv | wc -l)"
 
 
 
